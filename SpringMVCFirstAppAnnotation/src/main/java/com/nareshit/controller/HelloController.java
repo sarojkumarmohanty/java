@@ -20,7 +20,7 @@ public class HelloController{
 	public ModelAndView sayHello(@ModelAttribute("user1") User user1) {
 		String targetView="/WEB-INF/pages/welcome.jsp";
 		ModelAndView model=new ModelAndView(targetView);
-		model.addObject("test","sushree");
+		model.addObject("test","jayashree");
 		return model;
 		
 		/*msg=helloService.sayHello(name);
