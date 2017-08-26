@@ -24,7 +24,7 @@ public class HelloController{
 		return model;
 		
 		/*msg=helloService.sayHello(name);
-		return new ModelAndView(targetView,"msg",msg);*/
+		return new ModelAndView(targetView,"msg",msg);adsfsfsdfsj*/
 	}
 
 }
